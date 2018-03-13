@@ -14,7 +14,7 @@ import android.view.View;
  * Description:
  */
 
-public class MyView extends View {
+public class MyView01 extends View {
 
     Paint paint = new Paint();
 
@@ -26,15 +26,15 @@ public class MyView extends View {
         paint.setAntiAlias(true);// 抗锯齿开关
     }
 
-    public MyView(Context context) {
+    public MyView01(Context context) {
         super(context);
     }
 
-    public MyView(Context context, @Nullable AttributeSet attrs) {
+    public MyView01(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public MyView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public MyView01(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
 
